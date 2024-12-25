@@ -9,6 +9,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  font-family: "Unica One", sans-serif;
 }
 
 body {
@@ -17,12 +18,9 @@ body {
   flex-direction: column;
   text-align: center;
 }
-
 /*HEADER PART */
 .header {
   display: flex;
-  flex: 1 0 auto;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 20px;
@@ -31,7 +29,6 @@ body {
   display: flex;
   gap: 20px;
   margin: 80px 0 20px 0;
-  font-family: "Unica One", sans-serif;
   font-size: 20px;
 }
 
@@ -60,10 +57,10 @@ body {
 
 .content {
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex: 1;
 }
 
 .content > img {
@@ -73,7 +70,6 @@ body {
 }
 
 .title {
-  font-family: "Unica One", sans-serif;
   font-size: 50px;
   font-weight: 100;
   color: #5e5e50;
@@ -88,6 +84,8 @@ body {
 
 .card {
   display: flex;
+  flex: none;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
 }
@@ -99,7 +97,6 @@ body {
 }
 
 .card > .item > .text {
-  font-family: "Unica One", sans-serif;
   font-size: 40px;
   color: #5e5e50;
 }
@@ -116,6 +113,13 @@ body {
   flex-shrink: 0;
 }
 
+.footer > ul > li > a {
+  color: #5e5e50;
+}
+
 .left-links,
 .right-links {
+  display: flex;
+  gap: 16px;
+  padding: 10px;
 }
