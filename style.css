@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  min-height: 100vh;
 }
 /*HEADER PART */
 .header {
@@ -87,6 +88,7 @@ body {
   flex: none;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 50px;
 }
 .card > .item > img {
@@ -106,6 +108,20 @@ body {
   max-width: 900px;
 }
 
+.quote {
+  display: flex;
+  flex-direction: column;
+  max-width: max-content;
+  gap: 20px;
+  font-size: 60px;
+  color: #5e5e50;
+  margin: 80px;
+}
+
+.quote > .quotee {
+  align-self: flex-end;
+  font-size: 30px;
+}
 .footer {
   background-color: white;
   display: flex;
