@@ -122,6 +122,27 @@ body {
   align-self: flex-end;
   font-size: 30px;
 }
+.modal {
+  width: 500px;
+  margin: 50px auto;
+  padding: 50px;
+  border: 1px solid #5e5e50;
+  border-radius: 10px;
+}
+.modal > .modal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.modal > .modal-content > button {
+  border: 1px solid #5e5e50;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 20px;
+  color: #5e5e50;
+  background-color: #f7eada;
+}
 .footer {
   background-color: white;
   display: flex;
@@ -137,5 +158,5 @@ body {
 .right-links {
   display: flex;
   gap: 16px;
-  padding: 10px;
+  padding: 20px;
 }
